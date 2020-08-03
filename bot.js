@@ -15,6 +15,28 @@ const client11 = new Discord.Client();
 const client12 = new Discord.Client();
 const client13 = new Discord.Client();
 const client14 = new Discord.Client();
+const client15 = new Discord.Client();
+const client16 = new Discord.Client();
+const client17 = new Discord.Client();
+const client18 = new Discord.Client();
+const client19 = new Discord.Client();
+const client20 = new Discord.Client();
+const client21 = new Discord.Client();
+const client22 = new Discord.Client();
+const client23 = new Discord.Client();
+const client24 = new Discord.Client();
+const client25 = new Discord.Client();
+const client26 = new Discord.Client();
+const client27 = new Discord.Client();
+const client28 = new Discord.Client();
+const client29 = new Discord.Client();
+const client30 = new Discord.Client();
+const client31 = new Discord.Client();
+const client32 = new Discord.Client();
+const client33 = new Discord.Client();
+const client34 = new Discord.Client();
+const client35 = new Discord.Client();
+const client36 = new Discord.Client();
 
 
 //???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
@@ -34,6 +56,29 @@ client11.login(process.env.TOKEN11);
 client12.login(process.env.TOKEN12);
 client13.login(process.env.TOKEN13);
 client14.login(process.env.TOKEN14);
+client15.login(process.env.TOKEN);
+client16.login(process.env.TOKEN);
+client17.login(process.env.TOKEN);
+client18.login(process.env.TOKEN);
+client19.login(process.env.TOKEN);
+client20.login(process.env.TOKEN);
+client21.login(process.env.TOKEN);
+client22.login(process.env.TOKEN);
+client23.login(process.env.TOKEN);
+client24.login(process.env.TOKEN);
+client25.login(process.env.TOKEN);
+client26.login(process.env.TOKEN);
+client27.login(process.env.TOKEN);
+client28.login(process.env.TOKEN);
+client29.login(process.env.TOKEN);
+client30.login(process.env.TOKEN);
+client31.login(process.env.TOKEN);
+client32.login(process.env.TOKEN);
+client33.login(process.env.TOKEN);
+client34.login(process.env.TOKEN);
+client35.login(process.env.TOKEN);
+client36.login(process.env.TOKEN);
+
 
 
 //???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
@@ -304,6 +349,425 @@ message.channel.send('#profile')
      message.channel.send(text);
   }
 });
+
+client15.on('message', message => {
+  if (message.content === 'd1') {
+message.channel.send('#daily')
+  }
+  if(message.content === 'c1'){
+message.channel.send('#credits')
+  }
+  if(message.content === 'r1'){
+message.channel.send("#rep "+"<@" + myid + ">")
+  }
+  if (message.content === 'p1') {
+message.channel.send('#profile')
+  }
+  if(message.content.startsWith("s1")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
+
+client16.on('message', message => {
+  if (message.content === 'd1') {
+message.channel.send('#daily')
+  }
+  if(message.content === 'c1'){
+message.channel.send('#credits')
+  }
+  if(message.content === 'r1'){
+message.channel.send("#rep "+"<@" + myid + ">")
+  }
+  if (message.content === 'p1') {
+message.channel.send('#profile')
+  }
+  if(message.content.startsWith("s1")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
+
+client17.on('message', message => {
+  if (message.content === 'd1') {
+message.channel.send('#daily')
+  }
+  if(message.content === 'c1'){
+message.channel.send('#credits')
+  }
+  if(message.content === 'r1'){
+message.channel.send("#rep "+"<@" + myid + ">")
+  }
+  if (message.content === 'p1') {
+message.channel.send('#profile')
+  }
+  if(message.content.startsWith("s1")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
+
+client18.on('message', message => {
+  if (message.content === 'd1') {
+message.channel.send('#daily')
+  }
+  if(message.content === 'c1'){
+message.channel.send('#credits')
+  }
+  if(message.content === 'r1'){
+message.channel.send("#rep "+"<@" + myid + ">")
+  }
+  if (message.content === 'p1') {
+message.channel.send('#profile')
+  }
+  if(message.content.startsWith("s1")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
+
+client19.on('message', message => {
+  if (message.content === 'd1') {
+message.channel.send('#daily')
+  }
+  if(message.content === 'c1'){
+message.channel.send('#credits')
+  }
+  if(message.content === 'r1'){
+message.channel.send("#rep "+"<@" + myid + ">")
+  }
+  if (message.content === 'p1') {
+message.channel.send('#profile')
+  }
+  if(message.content.startsWith("s1")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
+
+client20.on('message', message => {
+  if (message.content === 'd1') {
+message.channel.send('#daily')
+  }
+  if(message.content === 'c1'){
+message.channel.send('#credits')
+  }
+  if(message.content === 'r1'){
+message.channel.send("#rep "+"<@" + myid + ">")
+  }
+  if (message.content === 'p1') {
+message.channel.send('#profile')
+  }
+  if(message.content.startsWith("s1")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
+
+client21.on('message', message => {
+  if (message.content === 'd1') {
+message.channel.send('#daily')
+  }
+  if(message.content === 'c1'){
+message.channel.send('#credits')
+  }
+  if(message.content === 'r1'){
+message.channel.send("#rep "+"<@" + myid + ">")
+  }
+  if (message.content === 'p1') {
+message.channel.send('#profile')
+  }
+  if(message.content.startsWith("s1")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
+
+client22.on('message', message => {
+  if (message.content === 'd1') {
+message.channel.send('#daily')
+  }
+  if(message.content === 'c1'){
+message.channel.send('#credits')
+  }
+  if(message.content === 'r1'){
+message.channel.send("#rep "+"<@" + myid + ">")
+  }
+  if (message.content === 'p1') {
+message.channel.send('#profile')
+  }
+  if(message.content.startsWith("s1")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
+
+client23.on('message', message => {
+  if (message.content === 'd1') {
+message.channel.send('#daily')
+  }
+  if(message.content === 'c1'){
+message.channel.send('#credits')
+  }
+  if(message.content === 'r1'){
+message.channel.send("#rep "+"<@" + myid + ">")
+  }
+  if (message.content === 'p1') {
+message.channel.send('#profile')
+  }
+  if(message.content.startsWith("s1")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
+
+client24.on('message', message => {
+  if (message.content === 'd1') {
+message.channel.send('#daily')
+  }
+  if(message.content === 'c1'){
+message.channel.send('#credits')
+  }
+  if(message.content === 'r1'){
+message.channel.send("#rep "+"<@" + myid + ">")
+  }
+  if (message.content === 'p1') {
+message.channel.send('#profile')
+  }
+  if(message.content.startsWith("s1")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
+
+client25.on('message', message => {
+  if (message.content === 'd1') {
+message.channel.send('#daily')
+  }
+  if(message.content === 'c1'){
+message.channel.send('#credits')
+  }
+  if(message.content === 'r1'){
+message.channel.send("#rep "+"<@" + myid + ">")
+  }
+  if (message.content === 'p1') {
+message.channel.send('#profile')
+  }
+  if(message.content.startsWith("s1")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
+
+client26.on('message', message => {
+  if (message.content === 'd1') {
+message.channel.send('#daily')
+  }
+  if(message.content === 'c1'){
+message.channel.send('#credits')
+  }
+  if(message.content === 'r1'){
+message.channel.send("#rep "+"<@" + myid + ">")
+  }
+  if (message.content === 'p1') {
+message.channel.send('#profile')
+  }
+  if(message.content.startsWith("s1")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
+
+client27.on('message', message => {
+  if (message.content === 'd1') {
+message.channel.send('#daily')
+  }
+  if(message.content === 'c1'){
+message.channel.send('#credits')
+  }
+  if(message.content === 'r1'){
+message.channel.send("#rep "+"<@" + myid + ">")
+  }
+  if (message.content === 'p1') {
+message.channel.send('#profile')
+  }
+  if(message.content.startsWith("s1")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
+
+client28.on('message', message => {
+  if (message.content === 'd1') {
+message.channel.send('#daily')
+  }
+  if(message.content === 'c1'){
+message.channel.send('#credits')
+  }
+  if(message.content === 'r1'){
+message.channel.send("#rep "+"<@" + myid + ">")
+  }
+  if (message.content === 'p1') {
+message.channel.send('#profile')
+  }
+  if(message.content.startsWith("s1")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
+
+client29.on('message', message => {
+  if (message.content === 'd1') {
+message.channel.send('#daily')
+  }
+  if(message.content === 'c1'){
+message.channel.send('#credits')
+  }
+  if(message.content === 'r1'){
+message.channel.send("#rep "+"<@" + myid + ">")
+  }
+  if (message.content === 'p1') {
+message.channel.send('#profile')
+  }
+  if(message.content.startsWith("s1")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
+
+client30.on('message', message => {
+  if (message.content === 'd1') {
+message.channel.send('#daily')
+  }
+  if(message.content === 'c1'){
+message.channel.send('#credits')
+  }
+  if(message.content === 'r1'){
+message.channel.send("#rep "+"<@" + myid + ">")
+  }
+  if (message.content === 'p1') {
+message.channel.send('#profile')
+  }
+  if(message.content.startsWith("s1")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
+
+client31.on('message', message => {
+  if (message.content === 'd1') {
+message.channel.send('#daily')
+  }
+  if(message.content === 'c1'){
+message.channel.send('#credits')
+  }
+  if(message.content === 'r1'){
+message.channel.send("#rep "+"<@" + myid + ">")
+  }
+  if (message.content === 'p1') {
+message.channel.send('#profile')
+  }
+  if(message.content.startsWith("s1")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
+
+client32.on('message', message => {
+  if (message.content === 'd1') {
+message.channel.send('#daily')
+  }
+  if(message.content === 'c1'){
+message.channel.send('#credits')
+  }
+  if(message.content === 'r1'){
+message.channel.send("#rep "+"<@" + myid + ">")
+  }
+  if (message.content === 'p1') {
+message.channel.send('#profile')
+  }
+  if(message.content.startsWith("s1")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
+
+client33.on('message', message => {
+  if (message.content === 'd1') {
+message.channel.send('#daily')
+  }
+  if(message.content === 'c1'){
+message.channel.send('#credits')
+  }
+  if(message.content === 'r1'){
+message.channel.send("#rep "+"<@" + myid + ">")
+  }
+  if (message.content === 'p1') {
+message.channel.send('#profile')
+  }
+  if(message.content.startsWith("s1")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
+
+client34.on('message', message => {
+  if (message.content === 'd1') {
+message.channel.send('#daily')
+  }
+  if(message.content === 'c1'){
+message.channel.send('#credits')
+  }
+  if(message.content === 'r1'){
+message.channel.send("#rep "+"<@" + myid + ">")
+  }
+  if (message.content === 'p1') {
+message.channel.send('#profile')
+  }
+  if(message.content.startsWith("s1")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
+
+client35.on('message', message => {
+  if (message.content === 'd1') {
+message.channel.send('#daily')
+  }
+  if(message.content === 'c1'){
+message.channel.send('#credits')
+  }
+  if(message.content === 'r1'){
+message.channel.send("#rep "+"<@" + myid + ">")
+  }
+  if (message.content === 'p1') {
+message.channel.send('#profile')
+  }
+  if(message.content.startsWith("s1")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
+
+client36.on('message', message => {
+  if (message.content === 'd1') {
+message.channel.send('#daily')
+  }
+  if(message.content === 'c1'){
+message.channel.send('#credits')
+  }
+  if(message.content === 'r1'){
+message.channel.send("#rep "+"<@" + myid + ">")
+  }
+  if (message.content === 'p1') {
+message.channel.send('#profile')
+  }
+  if(message.content.startsWith("s1")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
+
 //???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
 
 
@@ -388,6 +852,138 @@ client13.on('message', message => {
 client14.on('message', message => {
     if(message.content === prefix+'number'){
         message.channel.send(" My Token Is ``14`` ")
+    }
+});
+
+client15.on('message', message => {
+    if(message.content === prefix+'number'){
+        message.channel.send(" My Token Is ``15`` ")
+    }
+});
+
+client16.on('message', message => {
+    if(message.content === prefix+'number'){
+        message.channel.send(" My Token Is ``16`` ")
+    }
+});
+
+client17.on('message', message => {
+    if(message.content === prefix+'number'){
+        message.channel.send(" My Token Is ``17`` ")
+    }
+});
+
+client18.on('message', message => {
+    if(message.content === prefix+'number'){
+        message.channel.send(" My Token Is ``18`` ")
+    }
+});
+
+client19.on('message', message => {
+    if(message.content === prefix+'number'){
+        message.channel.send(" My Token Is ``19`` ")
+    }
+});
+
+client20.on('message', message => {
+    if(message.content === prefix+'number'){
+        message.channel.send(" My Token Is ``20`` ")
+    }
+});
+
+client21.on('message', message => {
+    if(message.content === prefix+'number'){
+        message.channel.send(" My Token Is ``21`` ")
+    }
+});
+
+client22.on('message', message => {
+    if(message.content === prefix+'number'){
+        message.channel.send(" My Token Is ``22`` ")
+    }
+});
+
+client23.on('message', message => {
+    if(message.content === prefix+'number'){
+        message.channel.send(" My Token Is ``23`` ")
+    }
+});
+
+client24.on('message', message => {
+    if(message.content === prefix+'number'){
+        message.channel.send(" My Token Is ``24`` ")
+    }
+});
+
+client25.on('message', message => {
+    if(message.content === prefix+'number'){
+        message.channel.send(" My Token Is ``25`` ")
+    }
+});
+
+client26.on('message', message => {
+    if(message.content === prefix+'number'){
+        message.channel.send(" My Token Is ``26`` ")
+    }
+});
+
+client27.on('message', message => {
+    if(message.content === prefix+'number'){
+        message.channel.send(" My Token Is ``27`` ")
+    }
+});
+
+client28.on('message', message => {
+    if(message.content === prefix+'number'){
+        message.channel.send(" My Token Is ``28`` ")
+    }
+});
+
+client29.on('message', message => {
+    if(message.content === prefix+'number'){
+        message.channel.send(" My Token Is ``29`` ")
+    }
+});
+
+client30.on('message', message => {
+    if(message.content === prefix+'number'){
+        message.channel.send(" My Token Is ``30`` ")
+    }
+});
+
+client31.on('message', message => {
+    if(message.content === prefix+'number'){
+        message.channel.send(" My Token Is ``31`` ")
+    }
+});
+
+client32.on('message', message => {
+    if(message.content === prefix+'number'){
+        message.channel.send(" My Token Is ``32`` ")
+    }
+});
+
+client33.on('message', message => {
+    if(message.content === prefix+'number'){
+        message.channel.send(" My Token Is ``33`` ")
+    }
+});
+
+client34.on('message', message => {
+    if(message.content === prefix+'number'){
+        message.channel.send(" My Token Is ``34`` ")
+    }
+});
+
+client35.on('message', message => {
+    if(message.content === prefix+'number'){
+        message.channel.send(" My Token Is ``35`` ")
+    }
+});
+
+client36.on('message', message => {
+    if(message.content === prefix+'number'){
+        message.channel.send(" My Token Is ``36`` ")
     }
 });
 
@@ -577,6 +1173,314 @@ if (message.content === prefix+'fast') {
 });
 
 client14.on('message', message => {
+if (message.content === prefix+'fast') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 30000; x++) {
+        message.channel.send(`iTzFaReS is the best[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client15.on('message', message => {
+if (message.content === prefix+'fast') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 30000; x++) {
+        message.channel.send(`iTzFaReS is the best[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client16.on('message', message => {
+if (message.content === prefix+'fast') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 30000; x++) {
+        message.channel.send(`iTzFaReS is the best[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client17.on('message', message => {
+if (message.content === prefix+'fast') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 30000; x++) {
+        message.channel.send(`iTzFaReS is the best[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client18.on('message', message => {
+if (message.content === prefix+'fast') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 30000; x++) {
+        message.channel.send(`iTzFaReS is the best[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client19.on('message', message => {
+if (message.content === prefix+'fast') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 30000; x++) {
+        message.channel.send(`iTzFaReS is the best[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client20.on('message', message => {
+if (message.content === prefix+'fast') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 30000; x++) {
+        message.channel.send(`iTzFaReS is the best[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client21.on('message', message => {
+if (message.content === prefix+'fast') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 30000; x++) {
+        message.channel.send(`iTzFaReS is the best[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client22.on('message', message => {
+if (message.content === prefix+'fast') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 30000; x++) {
+        message.channel.send(`iTzFaReS is the best[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client23.on('message', message => {
+if (message.content === prefix+'fast') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 30000; x++) {
+        message.channel.send(`iTzFaReS is the best[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client24.on('message', message => {
+if (message.content === prefix+'fast') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 30000; x++) {
+        message.channel.send(`iTzFaReS is the best[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client25.on('message', message => {
+if (message.content === prefix+'fast') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 30000; x++) {
+        message.channel.send(`iTzFaReS is the best[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client26.on('message', message => {
+if (message.content === prefix+'fast') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 30000; x++) {
+        message.channel.send(`iTzFaReS is the best[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client27.on('message', message => {
+if (message.content === prefix+'fast') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 30000; x++) {
+        message.channel.send(`iTzFaReS is the best[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client28.on('message', message => {
+if (message.content === prefix+'fast') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 30000; x++) {
+        message.channel.send(`iTzFaReS is the best[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client29.on('message', message => {
+if (message.content === prefix+'fast') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 30000; x++) {
+        message.channel.send(`iTzFaReS is the best[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client30.on('message', message => {
+if (message.content === prefix+'fast') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 30000; x++) {
+        message.channel.send(`iTzFaReS is the best[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client31.on('message', message => {
+if (message.content === prefix+'fast') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 30000; x++) {
+        message.channel.send(`iTzFaReS is the best[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client32.on('message', message => {
+if (message.content === prefix+'fast') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 30000; x++) {
+        message.channel.send(`iTzFaReS is the best[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client33.on('message', message => {
+if (message.content === prefix+'fast') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 30000; x++) {
+        message.channel.send(`iTzFaReS is the best[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client34.on('message', message => {
+if (message.content === prefix+'fast') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 30000; x++) {
+        message.channel.send(`iTzFaReS is the best[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client35.on('message', message => {
+if (message.content === prefix+'fast') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 30000; x++) {
+        message.channel.send(`iTzFaReS is the best[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client36.on('message', message => {
 if (message.content === prefix+'fast') {
       let count = 0;
       let ecount = 0;
